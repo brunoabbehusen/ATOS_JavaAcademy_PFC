@@ -1,3 +1,3 @@
 # ATOS_JavaAcademy_PFC
 
-Projeto Final de Curos do ATOS - Java Academy
+Projeto Final de Curso da ATOS - Java Academy em parceria com Universidade Franciscana (UFN)
