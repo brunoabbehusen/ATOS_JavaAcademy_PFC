@@ -41,7 +41,7 @@ public class LoginREST {
             return new ResponseEntity<>("Usuario nao encontrado",HttpStatus.NOT_FOUND);
         } else{
             String senhadobanco = user.get().getPassword();
-            //String senhahash = passwordEncoder.matches(usuariofromrequest.getPassword());
+            
             if(passwordEncoder.matches(usuariofromrequest.getPassword(),senhadobanco)){
                 return new ResponseEntity<>("Login realizado com sucesso",HttpStatus.OK);
             }else{
